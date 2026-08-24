@@ -106,7 +106,7 @@
         <p class="sub">Welcome back, <strong>user123</strong>.</p>
         
         <div class="links-container">
-            <a href="https://apod.nasa.gov/apod/astropix.html" target="_blank" class="btn-link">🚀 View NASA Astronomy Picture of the Day</a>
+            <a href="https://apod.nasa.gov/apod/astropix.html" target="_blank" class="btn-link">🚀 View NASA Astronomy Picture of the Day (;</a>
             <a href="index.jsp" class="btn-link" style="color: #94a3b8;">← Log Out</a>
         </div>
     </div>
