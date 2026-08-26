@@ -129,7 +129,7 @@
     <!-- Login Form View -->
     <div class="card <%= isError ? "shake" : "" %>">
         <h1>CyberVault</h1>
-        <p class="sub">Welcome to CyberVault</p>
+        <p class="sub">Welcome to CyberVault!</p>
 
         <form method="POST" action="index.jsp">
             <input type="text" name="username" placeholder="Username" required autofocus />
