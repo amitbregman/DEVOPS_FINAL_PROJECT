@@ -130,6 +130,8 @@
     <div class="card <%= isError ? "shake" : "" %>">
         <h1>CyberVault</h1>
         <p class="sub">Welcome to CyberVault</p>
+		<p class="sub">USERNAME:User123</p>
+		<p class="sub">PASSWORD:123456</p>
 
         <form method="POST" action="index.jsp">
             <input type="text" name="username" placeholder="Username" required autofocus />
