@@ -1,0 +1,363 @@
+{
+  "id": "a8f450a9-c6a2-45a7-a31d-4f240a6d8bcd",
+  "version": "2.0",
+  "name": "CyberVault_Automation",
+  "url": "http://13.60.77.179:8080/haim-amit-aviv-noao-noar/",
+  "tests": [{
+    "id": "7ae8e17d-69ec-433f-aeda-d5b5bfdb4ac8",
+    "name": "Negative_Login_Test ",
+    "commands": [{
+      "id": "f969579c-898b-4b9f-95c1-01869d627cb3",
+      "comment": "",
+      "command": "open",
+      "target": "http://13.60.77.179:8080/haim-amit-aviv-noao-noar/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0fa312c-c5d6-4700-b1cf-217a435524ab",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e22c3601-b0e4-4be1-8be6-19c82f2225a7",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "stam"
+    }, {
+      "id": "504c5f6b-64e7-45bf-b43f-0085a0e9af6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sub:nth-child(4)",
+      "targets": [
+        ["css=.sub:nth-child(4)", "css:finder"],
+        ["xpath=//p[3]", "xpath:position"],
+        ["xpath=//p[contains(.,'PASSWORD:123456')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7ae01ef-097e-4dbb-a954-7f78e53b6439",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1079e6b-8d96-406d-a88c-acb8f88e11dc",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1111"
+    }, {
+      "id": "35d1da28-9399-496a-9f1c-f4697cd229aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card",
+      "targets": [
+        ["css=.card", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e59b3e4b-2079-43bd-b0e8-e54845dab66b",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83489e22-dcb8-4dd4-80f7-374f9057d055",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card",
+      "targets": [
+        ["css=.card", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14d651b0-c85a-439d-8673-e62356e3908a",
+      "comment": "",
+      "command": "verifyEditable",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f35387c1-ea26-49d4-a3e9-0736a7f27388",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b958180-86d4-41a4-a17d-791f41cc6415",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "aaaa"
+    }, {
+      "id": "c70eeaa2-3b77-439d-a7d6-e2121e1521f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cdd9bee-8565-4a90-b88e-08a74cad78e1",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d147b7d5-f5e3-4e65-ba9e-433f4e69ef5a",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "sss"
+    }, {
+      "id": "754f01db-65bf-4e98-918d-f895fd2dc777",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85339ffd-3370-4331-9adf-f99bbad8fb84",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b5fc7ae9-64a3-4c9b-b134-40aa3bf85d52",
+    "name": "Positive_Login_Test",
+    "commands": [{
+      "id": "ae73540b-094b-452f-8da2-21b0ed9834f4",
+      "comment": "",
+      "command": "open",
+      "target": "http://13.60.77.179:8080/haim-amit-aviv-noao-noar/index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ebdb889-e5a1-4641-932e-dfffde812d20",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "550x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c2f1dc4-6479-4ddb-b667-06b0b4d716e5",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72bf4ec1-fa75-4617-9877-aeb7ef3fa48c",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "685ca07c-acca-44b1-9110-9607a4443f7d",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.getElementsByName('username')[0].value='user123';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "89f13133-4480-495e-a518-ed1b5006b5c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card",
+      "targets": [
+        ["css=.card", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb946072-08c9-4c10-a93b-f7b6c9460680",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cee0823-ae28-4a99-a001-117afd848f10",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "434a9803-2fd0-46a4-95b9-ffe18b32178e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.getElementsByName('password')[0].value='123456';",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b693358d-5d54-45d5-8b15-d11c6d5df9bd",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57f2119d-af2f-423b-8a4f-0e56f5d110e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bdb2753-b7b7-4042-851c-23d00cc5c810",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "CyberVault",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa5b2394-f4f2-4104-b3a3-9a0d1aefc328",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=← Log Out",
+      "targets": [
+        ["linkText=← Log Out", "linkText"],
+        ["css=.btn-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'← Log Out')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'index.jsp')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'← Log Out')]", "xpath:innerText"]
+      ],
+      "value": "← Log Out"
+    }, {
+      "id": "1f0b2a9f-cc29-4821-aa41-820e54553946",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=🚀 View NASA Astronomy Picture of the Day (;",
+      "targets": [
+        ["linkText=🚀 View NASA Astronomy Picture of the Day (;", "linkText"],
+        ["css=.btn-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'🚀 View NASA Astronomy Picture of the Day (;')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://apod.nasa.gov/apod/astropix.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'🚀 View NASA Astronomy Picture of the Day (;')]", "xpath:innerText"]
+      ],
+      "value": "🚀 View NASA Astronomy Picture of the Day (;"
+    }, {
+      "id": "182d91d4-1a1a-47fa-b635-618f72b13a3f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.sub",
+      "targets": [
+        ["css=.sub", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Welcome back, user123.')]", "xpath:innerText"]
+      ],
+      "value": "Welcome back, user123."
+    }, {
+      "id": "1f97eacc-e013-414e-9ba7-79a59d8c4c53",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.success-title",
+      "targets": [
+        ["css=.success-title", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Logged In Successfully!')]", "xpath:innerText"]
+      ],
+      "value": "Logged In Successfully!"
+    }]
+  }],
+  "suites": [{
+    "id": "c9efec21-0ca4-45e7-8ce9-8a90290b333d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://13.60.77.179:8080/", "http://13.60.77.179:8080/haim-amit-aviv-noao-noar/"],
+  "plugins": []
+}
