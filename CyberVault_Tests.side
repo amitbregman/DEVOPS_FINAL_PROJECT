@@ -2,7 +2,7 @@
   "id": "a8f450a9-c6a2-45a7-a31d-4f240a6d8bcd",
   "version": "2.0",
   "name": "CyberVault_Automation",
-  "url": "http://13.60.77.179:8080/haim-amit-aviv-noao-noar/",
+  "url": "http://16.170.255.200:8080/haim-amit-aviv-noao-noar/",
   "tests": [{
     "id": "7ae8e17d-69ec-433f-aeda-d5b5bfdb4ac8",
     "name": "Negative_Login_Test ",
@@ -10,7 +10,7 @@
       "id": "f969579c-898b-4b9f-95c1-01869d627cb3",
       "comment": "",
       "command": "open",
-      "target": "http://13.60.77.179:8080/haim-amit-aviv-noao-noar/",
+      "target": "http://16.170.255.200:8080/haim-amit-aviv-noao-noar/",
       "targets": [],
       "value": ""
     }, {
@@ -197,7 +197,7 @@
       "id": "ae73540b-094b-452f-8da2-21b0ed9834f4",
       "comment": "",
       "command": "open",
-      "target": "http://13.60.77.179:8080/haim-amit-aviv-noao-noar/index.jsp",
+      "target": "http://16.170.255.200:8080/haim-amit-aviv-noao-noar/index.jsp",
       "targets": [],
       "value": ""
     }, {
@@ -358,6 +358,6 @@
     "timeout": 300,
     "tests": []
   }],
-  "urls": ["http://13.60.77.179:8080/", "http://13.60.77.179:8080/haim-amit-aviv-noao-noar/"],
+  "urls": ["http://16.170.255.200:8080/", "http://16.170.255.200:8080/haim-amit-aviv-noao-noar/"],
   "plugins": []
 }
