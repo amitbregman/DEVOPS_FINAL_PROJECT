@@ -297,25 +297,11 @@
       "targets": [],
       "value": "Logged In Successfully!"
     }, {
-      "id": "pause-confetti-1234",
-      "comment": "Wait for confetti canvas to clear",
-      "command": "pause",
-      "target": "3000",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "ee599e00-852a-4465-9031-604763c518f7",
-      "comment": "",
-      "command": "click",
-      "target": "linkText=← Log Out",
-      "targets": [
-        ["linkText=← Log Out", "linkText"],
-        ["css=.btn-link:nth-child(2)", "css:finder"],
-        ["xpath=//a[contains(text(),'← Log Out')]", "xpath:link"],
-        ["xpath=//a[contains(@href, 'index.jsp')]", "xpath:href"],
-        ["xpath=//a[2]", "xpath:position"],
-        ["xpath=//a[contains(.,'← Log Out')]", "xpath:innerText"]
-      ],
+      "comment": "Force GET request to bypass Linux font rendering issues",
+      "command": "open",
+      "target": "http://16.170.255.200:8080/haim-amit-aviv-noao-noar/index.jsp",
+      "targets": [],
       "value": ""
     }, {
       "id": "af29c93d-5873-43ff-ba00-3159e12f970b",
