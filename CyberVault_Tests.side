@@ -297,6 +297,13 @@
       "targets": [],
       "value": "Logged In Successfully!"
     }, {
+      "id": "pause-confetti-1234",
+      "comment": "Wait for confetti canvas to clear",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "ee599e00-852a-4465-9031-604763c518f7",
       "comment": "",
       "command": "click",
