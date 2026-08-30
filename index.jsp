@@ -52,6 +52,19 @@
         }
         h1 { margin: 0; font-size: 1.8rem; color: #38bdf8; }
         p.sub { color: #94a3b8; margin: 0.5rem 0 1.5rem; font-size: 0.95rem; }
+        
+        /* New Error Message Styling */
+        .error-msg {
+            color: #ef4444;
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
         input[type="text"], input[type="password"] {
             width: 100%;
             padding: 10px 12px;
@@ -130,8 +143,12 @@
     <div class="card <%= isError ? "shake" : "" %>">
         <h1>CyberVault</h1>
         <p class="sub">Welcome to CyberVault</p>
-		<p class="sub">USERNAME:user123</p>
-		<p class="sub">PASSWORD:123456</p>
+        <p class="sub">USERNAME:user123</p>
+        <p class="sub">PASSWORD:123456</p>
+
+        <% if (isError) { %>
+            <div class="error-msg">Incorrect username or password.</div>
+        <% } %>
 
         <form method="POST" action="index.jsp">
             <input type="text" name="username" placeholder="Username" required autofocus />
@@ -143,13 +160,6 @@
             <a href="https://apod.nasa.gov/apod/astropix.html" target="_blank" class="btn-link">✨ Explore NASA Astronomy Picture of the Day</a>
         </div>
     </div>
-
-    <% if (isError) { %>
-    <script>
-        alert("The username or password you entered is incorrect!");
-    </script>
-    <% } %>
-
 <% } %>
 
 </body>
