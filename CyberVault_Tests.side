@@ -427,7 +427,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["8186f5ce-3bfe-4e20-8d27-f9486d3b861f", "59c81027-1501-40c2-bc29-6d79c6924e02", "b37e9019-f70f-4a68-96f0-db3fc725e10a", "6de7edba-c5c7-4a28-8099-612e61e1a389"]
+    "tests": ["8186f5ce-3bfe-4e20-8d27-f9486d3b861f", "59c81027-1501-40c2-bc29-6d79c6924e02", "ee8bf6d6-ba31-4ad7-b151-577a80d3e944", "b37e9019-f70f-4a68-96f0-db3fc725e10a", "6de7edba-c5c7-4a28-8099-612e61e1a389"]
   }],
   "urls": ["http://16.170.255.200:8080/haim-amit-aviv-noao-noar/", "http://16.170.255.200:8080/haim-amit-aviv-noao-noar/index.jsp"],
   "plugins": []
