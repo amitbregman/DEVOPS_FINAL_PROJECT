@@ -2,7 +2,7 @@
   "id": "85e22cb8-3710-4b9e-badf-1354918fec20",
   "version": "2.0",
   "name": "CyberVault_Automation_5_Tests",
-  "url": "https://backspace-elective-spindle.ngrok-free.dev/haim-amit-aviv-noao-noar/",
+  "url": "http://16.170.255.200:8080/haim-amit-aviv-noao-noar/",
   "tests": [{
     "id": "8186f5ce-3bfe-4e20-8d27-f9486d3b861f",
     "name": "01_Page_Load_Test",
@@ -429,6 +429,6 @@
     "timeout": 300,
     "tests": ["8186f5ce-3bfe-4e20-8d27-f9486d3b861f", "59c81027-1501-40c2-bc29-6d79c6924e02", "b37e9019-f70f-4a68-96f0-db3fc725e10a", "6de7edba-c5c7-4a28-8099-612e61e1a389"]
   }],
-  "urls": ["https://backspace-elective-spindle.ngrok-free.dev/haim-amit-aviv-noao-noar/", "https://backspace-elective-spindle.ngrok-free.dev/haim-amit-aviv-noao-noar/index.jsp"],
+  "urls": ["http://16.170.255.200:8080/haim-amit-aviv-noao-noar/", "http://16.170.255.200:8080/haim-amit-aviv-noao-noar/index.jsp"],
   "plugins": []
 }
