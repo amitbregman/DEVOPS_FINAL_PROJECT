@@ -356,7 +356,7 @@
       "id": "9ef9b2db-a933-491a-8344-d79429f40674",
       "comment": "",
       "command": "assertText",
-      "target": "linkText=✨ Explore NASA Astronomy Picture of the Day",
+      "target": "linkText=✨ Explore NASA Astronomy! Picture of the Day",
       "targets": [
         ["linkText=✨ Explore NASA Astronomy Picture of the Day", "linkText"],
         ["css=.btn-link", "css:finder"],
