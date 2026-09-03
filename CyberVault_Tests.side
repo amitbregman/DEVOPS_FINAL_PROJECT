@@ -129,7 +129,7 @@
       "command": "assertText",
       "target": "css=.sub",
       "targets": [],
-      "value": "Welcome back!, user123."
+      "value": "Welcome back, user123."
     }, {
       "id": "de6fe5dc-b103-4e29-888e-8e8b515a7934",
       "comment": "",
@@ -356,7 +356,7 @@
       "id": "9ef9b2db-a933-491a-8344-d79429f40674",
       "comment": "",
       "command": "assertText",
-      "target": "linkText=✨ Explore NASA Astronomy! Picture of the Day",
+      "target": "linkText=✨ Explore NASA Astronomy Picture of the Day",
       "targets": [
         ["linkText=✨ Explore NASA Astronomy Picture of the Day", "linkText"],
         ["css=.btn-link", "css:finder"],
