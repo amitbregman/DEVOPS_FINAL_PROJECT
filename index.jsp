@@ -174,7 +174,7 @@
                     <!-- Login Form View -->
                     <div class="card <%= isError ? " shake" : "" %>">
                         <h1>CyberVault</h1>
-                        <p class="sub">Welcome to CyberVault</p>
+                        <p class="sub">Welcome to CyberVault Moshe!</p>
                         <p class="sub">USERNAME:user123</p>
                         <p class="sub">PASSWORD:123456</p>
 
